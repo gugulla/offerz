@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.fanrunqi.materiallogin">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="OFFERZ"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".a.AActivityOne" />
+        <activity
+            android:name=".a.AActivityTwo"
+            android:theme="@style/Translucent" />
+        <activity android:name=".a.forgot_password" />
+        <activity android:name=".home_activity" />
+        <activity android:name=".Electronics" />
+        <activity android:name=".kids" />
+        <activity android:name=".Automobiles" />
+        <activity android:name=".Groceries" />
+        <activity android:name=".Clothing" />
+        <activity android:name=".Food" />
+        <activity android:name=".ecard" />
+        <activity android:name=".mcard" />
+        <activity android:name=".acard" />
+        <activity android:name=".ccard" />
+        <activity android:name=".gcard" />
+        <activity android:name=".fcard" />
+        <activity android:name=".SellerMain" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Electronicshome" />
+        <activity android:name=".filter"
+            android:theme="@style/Translucent">
+
+        </activity>
+    </application>
+
+</manifest>
